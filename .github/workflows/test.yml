@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-laster
     container:
       image: node:20
-    step:
+    steps:
       - uses: actions/checkout@v3
         with:
           node-version: 20
